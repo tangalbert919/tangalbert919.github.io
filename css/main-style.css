@@ -1,0 +1,68 @@
+/* These rules will affect the entire page. */
+body, #power-container {
+  font-family: sans-serif;
+}
+/* This is for the navigation bar. */
+#navbar {
+    z-index: 4;
+}
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar li a:hover:not(.active) {
+    background-color: darkblue;
+}
+#navbar li .active {
+    background-color: darkgreen;
+}
+/* Main section of the website */
+#main {
+  border: 2px solid #222;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 16px;
+  background-color: #fff;
+}
+/* This is for the news column. */
+#news {
+  border: 2px solid darkorange;
+  background-color: lightblue;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  background-color: brightred;
+}
+/* This is for the footer. */
+#footer {
+    background-color: darkgreen;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 10px;
+}
+#footer p {
+    text-align: center;
+    margin: 10px;
+}
