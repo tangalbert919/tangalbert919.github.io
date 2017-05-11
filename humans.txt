@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Albert Tang -- Developer -- @tangalbert919
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    W3.CSS, HTML5
