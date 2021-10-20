@@ -1,0 +1,20 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Web Developer: Albert Tang
+    Site: http://tangalbert919.github.io
+    Twitter: @tangalbert919
+    Location: Somewhere on Earth...
+
+# THANKS
+
+    CSS Template Maker: W3Schools
+    Site: http://w3schools.com
+
+# TECHNOLOGY COLOPHON
+
+    Last update: 2017/05/11
+    Standards: W3.CSS, HTML5
+    Components: W3.CSS, jQuery, Google Roboto Font

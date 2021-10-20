@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<title>Albert's Projects</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="https://tangalbert919.github.io/" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+    <a href="../../About" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+    <a href="../../Projects" class="w3-bar-item w3-button w3-theme-l1">Projects</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Clients</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Partners</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" style="z-index:3;width:250px;margin-top:43px;" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="../../">Home</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="../../About">About</a>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button w3-hover-black">Projects</button>
+    <div class="w3-dropdown-content w3-bar-block w3-border">
+      <a class="w3-bar-item w3-button w3-hover-black" href="./">Main Page</a>
+      <a class="w3-bar-item w3-button w3-hover-black" href="../EpicCraft-Test-Server">EC Test Server</a>
+      <a class="w3-bar-item w3-button w3-hover-black" href="../GPA-Calculator">GPA Calculator</a>
+      <a class="w3-bar-item w3-button w3-hover-black" href="../Hardcore+-Generator">Hardcore+ Generator</a>
+      <a class="w3-bar-item w3-button w3-hover-black" href="../Math-Speed-Test">Math Speed Test</a>
+      <a class="w3-bar-item w3-button w3-hover-black" href="../MyZ-Reborn">MyZ Reborn</a>
+      <a class="w3-bar-item w3-button w3-theme-l1" href="./">nds4droid</a>
+      <a class="w3-bar-item w3-button w3-hover-black" href="../Ultimate-Gems-Mod">Ultimate Gems Mod</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">What is nds4droid?</h1>
+      <p>nds4droid is a DS emulator made by Jefferey Quesnelle. It's one of the open-source emulators found on the Google Play Store, and obviously, it only works on Android devices.
+       It can run whatever ROM you have, but its performance is determined by what device you have. The newer (and stronger) your device is, the better performance you will get.</p>
+      <p>Currently, version 47 is the official verison of nds4droid, and can be found on the Google Play Store. An unofficial version (v47.1) can be found on GitHub, and is supposed to bring better performance.
+      Version 48 is currently in development, and can also be downloaded from GitHub. However, there will be bugs in the development builds, so proceed with caution.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Download links</h1>
+      <p>You can download nds4droid here.</p>
+      <p>WARNING! As of Version 48, Android 5.0 (Lollipop) is required or the app will NOT install!</p>
+      <a role="button" class="w3-button w3-green w3-round" href="https://github.com/tangalbert919/nds4droid/releases/download/v48-dev1/app-release.apk">Download v48 Beta</a>
+      <a role="button" class="w3-button w3-blue w3-round" href="https://github.com/tangalbert919/nds4droid/releases/download/v47.1/app-release.apk">Download v47.1 Stable</a>
+      <a role="button" class="w3-button w3-red w3-round" href="https://www.github.com/tangalbert919/nds4droid">Source code for v48 (forked)</a>
+      <a role="button" class="w3-button w3-red w3-round" href="https://www.github.com/jquesnelle/nds4droid">Source code for v47 (original)</a>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-black" href="#">1</a>
+      <a class="w3-button w3-hover-black" href="#">2</a>
+      <a class="w3-button w3-hover-black" href="#">3</a>
+      <a class="w3-button w3-hover-black" href="#">4</a>
+      <a class="w3-button w3-hover-black" href="#">5</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>This website was built by <a href="https://github.com/tangalbert919">Albert Tang</a> and hosted by GitHub, Inc. This was built from a template built by <a href="http://w3schools.com">W3Schools</a>.</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = "none";
+    } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = "block";
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+    overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
