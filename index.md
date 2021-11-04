@@ -8,4 +8,3 @@ title: CURRENTLY UNDER CONSTRUCTION
 <p>What I had before not only looked terrible, it was neglected for four years. I might as well rebuild the whole thing to reflect what I do nowadays.</p>
 <h1>When will the new site be ready?</h1>
 <p>It will be ready whenever I think it's ready. The old site can be found <a href="./old/index.html">here.</a></p>
-<h1>{{"Currently testing Jekyll" | downcase }}</h1>
