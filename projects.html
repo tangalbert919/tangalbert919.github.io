@@ -3,6 +3,28 @@ layout: default
 title: Projects
 permalink: /projects/
 ---
+<!-- TODO: Move this to JS file -->
+<script>
+    function displayProject() {
+        var fr = new FileReader();
+
+        fr.onload=function() {
+            document.getElementById('projectcontent')
+                    .textContent=fr.result;
+        }
+        fr.readAsText();
+    }
+    function test() {
+        document.getElementById('message').innerText = "this works";
+    }
+</script>
 <h1>My projects</h1>
 
 <p>This page is currently under construction. In the meantime, you can just take a look at my GitHub account <a href="https://github.com/tangalbert919">here.</a></p>
+
+<div id="projectbar">
+    <button onclick="test()">click me!</button>
+</div>
+<div id="projectcontent">
+    <h3 id="message">Testing</h3>
+</div>

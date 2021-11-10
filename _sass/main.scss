@@ -31,3 +31,15 @@ a#navbar.current {
     background-color: #eee;
     color: green;
 }
+
+/* Projects page */
+div#projectbar {
+    width: 30%;
+    background-color: aquamarine;
+    float: left;
+}
+div#projectcontent {
+    width: 70%;
+    background-color: coral;
+    float: right;
+}
