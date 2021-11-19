@@ -1,14 +1,24 @@
 /* Navigation bar */
 nav {
+    background-color: #333;
+    left: 0;
     overflow: hidden;
-    border: 5px dotted crimson;
-    border-radius: 10px;
-    padding: 15px;
-    margin: 15px;
     position: fixed;
-    text-align: center;
     top: 0;
     width: 100%;
+}
+nav a {
+    color: #ddd;
+    display: block;
+    float: left;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: darkred;
+}
+nav a.current {
+    color: red;
 }
 
 /* Main content */
@@ -16,23 +26,6 @@ nav {
     margin-top: 40px;
     padding: 15px;
     height: 1500px;
-}
-
-/* TODO: Move this to its own SCSS file. */
-a#navbar {
-    background-color: white;
-    border: 2px solid grey;
-    border-radius: 5px;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-}
-a#navbar:hover {
-    background-color: lightgray;
-}
-a#navbar.current {
-    background-color: #eee;
-    color: green;
 }
 
 /* Projects page */
