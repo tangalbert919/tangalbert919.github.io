@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CURRENTLY UNDER CONSTRUCTION
+title: Home
 ---
 <h1>Welcome to my new website!</h1>
 <p>Currently, it is still a work-in-progress, but I will improve it when I have the time.</p>
