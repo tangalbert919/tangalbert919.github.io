@@ -6,6 +6,8 @@ title: Ungoogled-chromium for FreeBSD
 
 ## Ungoogled-chromium for FreeBSD
 
+**UPDATE**: There is now an official port of this browser on FreeBSD, so this project is no longer maintained!
+
 This is an attempt to port Ungoogled-chromium to FreeBSD (and by extension, any BSD distro based on that).
 
 This project is reliant on ungoogled-chromium having patches for the latest version of Chromium, which can take
