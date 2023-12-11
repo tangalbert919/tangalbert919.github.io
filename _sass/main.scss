@@ -23,9 +23,16 @@ nav a.current {
     color: red;
 }
 
+/* The entire body */
+body {
+    background-color: #999;
+}
+
 /* Main content */
 .main {
-    margin-top: 40px;
+    background-color: #ddd;
+    border-radius: 1em;
+    margin-top: 70px;
     padding: 15px;
 }
 
