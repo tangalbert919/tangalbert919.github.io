@@ -2,6 +2,7 @@
 layout: default
 author: albert
 title: Chromium Canary for Arch Linux
+description: It says it all in the title.
 ---
 
 ## Chromium Canary for Arch Linux

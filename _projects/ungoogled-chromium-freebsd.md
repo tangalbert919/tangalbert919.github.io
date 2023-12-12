@@ -2,6 +2,7 @@
 layout: default
 author: albert
 title: Ungoogled-chromium for FreeBSD
+description: Porting a browser to an OS you've probably never heard of.
 ---
 
 ## Ungoogled-chromium for FreeBSD
