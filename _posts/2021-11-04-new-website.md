@@ -2,6 +2,7 @@
 layout: post
 author: albert
 title: New website
+description: Why did I make a new website?
 ---
 So I decided to just use Jekyll for the new website. I find this to be much faster than just writing all the HTML and CSS stuff entirely from scratch, and having to copy a lot of that whenever I want to make a new page would be a waste of time.
 
