@@ -10,7 +10,7 @@ title: Home
         <h2>Posts</h2>
         {% for post in site.posts %}
         <div>
-            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <h3><a id="post" href="{{ post.url }}">{{ post.title }}</a></h3>
             {{ post.date | date: "%e %b, %Y"}} - {{ post.description }}
         </div>
         {% endfor %}
@@ -19,7 +19,7 @@ title: Home
         <h2>Projects</h2>
         {% for post in site.projects %}
         <div>
-            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <h3><a id="post" href="{{ post.url }}">{{ post.title }}</a></h3>
             {{ post.description }}
         </div>
         {% endfor %}
