@@ -6,7 +6,7 @@ title: Home
 <p>Currently, it is still a work-in-progress, but I will improve it when I have the time.</p>
 <p>You can explore the website using the navigation bar on top.</p>
 <div class="row">
-    <div class="col-lg-8">
+    <div class="col-lg-8" id="home-page">
         <h2>Posts</h2>
         {% for post in site.posts %}
         <div>
@@ -15,7 +15,7 @@ title: Home
         </div>
         {% endfor %}
     </div>
-    <div class="col-lg-4">
+    <div class="col-lg-4" id="home-page">
         <h2>Projects</h2>
         {% for post in site.projects %}
         <div>

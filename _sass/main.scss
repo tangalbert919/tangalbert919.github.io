@@ -44,6 +44,11 @@ div#projectcontent {
     float: right;
     overflow-y: auto;
 }
+
+div#home-page h1, div#home-page h2 {
+    padding-bottom: 10px;
+}
+
 /* Posts */
 a#post {
     color: #555;
