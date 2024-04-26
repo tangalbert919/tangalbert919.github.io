@@ -32,7 +32,7 @@ permalink: /projects/
 <ul>
     {% for post in site.projects %}
     <li>
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <h2><a id="post" href="{{ post.url }}">{{ post.title }}</a></h2>
         {{ post.description }}
     </li>
     {% endfor %}
