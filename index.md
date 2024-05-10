@@ -2,9 +2,9 @@
 layout: default
 title: Home
 ---
-<h1>Welcome to my new website!</h1>
-<p>Currently, it is still a work-in-progress, but I will improve it when I have the time.</p>
-<p>You can explore the website using the navigation bar on top.</p>
+<div class="alert alert-info">
+    This website is currently being redesigned and revamped! You can read more about it <a href="/2024/05/06/revamp-website.html">here.</a>
+</div>
 <div class="row">
     <div class="col-lg-8" id="home-page">
         <h2>Posts</h2>
