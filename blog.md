@@ -9,8 +9,9 @@ permalink: /blog/
 
 <div class="row">
     {% for post in site.posts %}
-    <div class="col-md-6 col-xs-12">
-        <h2><a id="post" href="{{ post.url }}">{{ post.title }}</a></h2>
+    <div class="col-md-6 col-xs-12" id="post">
+        <h2>{{ post.title }}</h2>
+        <a id="post" href="{{ post.url }}"><span class="link-spanner"></span></a>
         {{ post.date | date: "%e %b, %Y"}} - {{ post.description }}
     </div>
     {% endfor %}
