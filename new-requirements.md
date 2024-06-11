@@ -25,6 +25,7 @@ Blog:
     * On mobile, this requirement shall not apply
   * All hyperlinks should not be blue and have an underline
   * For each entry, the whole thing must be clickable (including the picture and description, not just the title of the post)
+  * There must be pagination for the blog (at least ten posts per page)
 
 Projects:
   * Mention that the page may not be updated regularly
@@ -49,4 +50,4 @@ About:
   * Don't disappoint recruiters when they see this
 
 **Created:** 23 January 2024
-**Last revised:** 2 February 2024
+**Last revised:** 11 June 2024
