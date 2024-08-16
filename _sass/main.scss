@@ -39,14 +39,22 @@ div {
 
 div#home-page h1, div#home-page h2 {
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 /* Posts */
-div#post h2 {
+div#post {
+    background-color: #eee;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+div#post h2,div#post h3 {
     color: #555;
 }
 
-div#post:hover h2 {
+div#post:hover h2, div#post:hover h3 {
     color: #111;
 }
 

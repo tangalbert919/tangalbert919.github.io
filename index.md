@@ -10,8 +10,9 @@ title: Home
         <h2>Posts</h2>
         <div class="row">
             {% for post in site.posts %}
-            <div class="col-xs-12 col-md-6">
-                <h3><a id="post" href="{{ post.url }}">{{ post.title }}</a></h3>
+            <div class="col-xs-12 col-md-6" id="post">
+                <h3>{{ post.title }}</h3>
+                <a id="post" href="{{ post.url }}"><span class="link-spanner"></span></a>
                 {{ post.date | date: "%e %b, %Y"}} - {{ post.description }}
             </div>
             {% endfor %}
@@ -20,8 +21,9 @@ title: Home
     <div class="col-lg-4" id="home-page">
         <h2>Projects</h2>
         {% for post in site.projects %}
-        <div>
-            <h3><a id="post" href="{{ post.url }}">{{ post.title }}</a></h3>
+        <div id="post">
+            <h3>{{ post.title }}</h3>
+            <a id="post" href="{{ post.url }}"><span class="link-spanner"></span></a>
             {{ post.description }}
         </div>
         {% endfor %}
