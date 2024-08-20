@@ -18,6 +18,7 @@ Site-wide:
   * Layout:
     * On desktop, there should be two columns at most
     * On mobile, only one column is allowed
+  * Use non-default font
 
 Blog:
   * Add pictures to all new posts
@@ -36,14 +37,9 @@ Projects:
   * Each one must have a description of some kind
 
 Home page:
-  * This should showcase some projects and blog posts
-  * On desktop, have two columns to showcase a blog post and a project
-    * The blog post column will contain the most recent post and take up 70% of space
-    * The project column will contain one project and take up 30% of space
-  * On mobile, the following layout shall apply:
-    * Blog posts are mentioned first, but only a few are showcased
-    * Projects are below blog posts
-  * Keep it concise and minimize text wherever possible
+  * This shall be a simple landing page.
+  * Logo and navigation links should be in center of the page.
+  * No footer or navigation bar shall be present.
 
 About:
   * Basically turn it into a bio. Add a headshot that looks professional
@@ -52,4 +48,4 @@ About:
   * Don't disappoint recruiters when they see this
 
 **Created:** 23 January 2024
-**Last revised:** 1 August 2024
+**Last revised:** 20 August 2024
