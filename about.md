@@ -4,14 +4,14 @@ title: About
 permalink: /about/
 ---
 
-<h1>About me</h1>
+<h1 align="center">About me</h1>
 <p>I am just another guy looking to get into the Information Technology field. I currently specialize
 in back-end development, but am working on becoming a full stack developer. My interests include
 mobile development, artificial intelligence, machine learning, and cybersecurity.</p>
 
 <p>I have a Bachelor's Degree in Computer Science.</p>
 
-<h2>Known languages</h2>
+<h2 align="center">Known languages</h2>
 
 <div align="center" class="d-none d-sm-block" id="desktop">
   <a href="https://skillicons.dev">
@@ -25,7 +25,7 @@ mobile development, artificial intelligence, machine learning, and cybersecurity
   </a>
 </div>
 
-<h2>Known tools and frameworks</h2>
+<h2 align="center">Known tools and frameworks</h2>
 
 <div align="center" class="d-none d-sm-block" id="desktop">
   <a href="https://skillicons.dev">
@@ -39,7 +39,7 @@ mobile development, artificial intelligence, machine learning, and cybersecurity
   </a>
 </div>
 
-<h2>Known operating systems</h2>
+<h2 align="center">Known operating systems</h2>
 
 <div align="center" class="d-none d-sm-block" id="desktop">
   <a href="https://skillicons.dev">
@@ -53,7 +53,7 @@ mobile development, artificial intelligence, machine learning, and cybersecurity
   </a>
 </div>
 
-<h2>My GitHub stats:</h2>
+<h2 align="center">My GitHub stats:</h2>
 
 <div align="center">
   <a href="https://github.com/tangalbert919">
