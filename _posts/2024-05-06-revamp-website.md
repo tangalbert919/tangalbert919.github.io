@@ -3,6 +3,7 @@ layout: post
 author: albert
 title: Revamped website
 description: Finally got around to improving the website.
+category: general
 ---
 I will just admit it outright: I have neglected my own website for years.
 
