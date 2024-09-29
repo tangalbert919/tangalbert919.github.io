@@ -46,6 +46,7 @@ div#post {
     border-radius: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
+    position: relative;
 }
 
 div#post h2,div#post h3 {
@@ -57,7 +58,7 @@ div#post:hover h2, div#post:hover h3 {
 }
 
 .link-spanner {
-    position:absolute;
+    position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
