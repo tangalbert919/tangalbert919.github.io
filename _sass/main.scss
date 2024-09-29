@@ -2,9 +2,8 @@
 nav {
     background-color: #333;
     overflow: hidden;
-    position: fixed;
+    position: sticky;
     top: 0;
-    width: 100%;
 }
 nav a {
     color: #ddd;
@@ -18,6 +17,9 @@ nav a:hover {
     text-decoration: underline;
     text-underline-offset: 5px;
 }
+nav ul {
+    list-style-type: none;
+}
 
 /* The entire body */
 body {
@@ -28,13 +30,9 @@ body {
 .main {
     background-color: #ddd;
     border-radius: 1em;
-    margin-top: 70px;
+    margin-top: 20px;
     margin-bottom: 160px;
     padding: 15px;
-}
-
-div {
-    position: relative;
 }
 
 div#home-page h1, div#home-page h2 {
