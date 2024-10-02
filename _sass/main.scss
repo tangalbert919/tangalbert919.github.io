@@ -43,7 +43,10 @@ div#home-page h1, div#home-page h2 {
 /* Posts */
 div#post {
     background-color: #eee;
+    border: solid;
+    border-color: #999;
     border-radius: 10px;
+    border-width: 2px;
     padding-bottom: 10px;
     padding-top: 10px;
     position: relative;
