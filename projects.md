@@ -9,10 +9,12 @@ permalink: /projects/
 <div class="alert alert-warning">This page is not updated regularly. Some information here may be outdated.</div>
 <div class="row g-2">
     {% for post in site.projects %}
-    <div class="col-xs-12 col-md-6 p-3" id="post">
-        <h2>{{ post.title }}</h2>
-        <a href="{{ post.url }}"><span class="link-spanner"></span></a>
-        {{ post.description }}
+    <div class="col-xs-12 col-md-6">
+        <div class="p-3" id="post">
+            <h2>{{ post.title }}</h2>
+            <a href="{{ post.url }}"><span class="link-spanner"></span></a>
+            {{ post.description }}
+        </div>
     </div>
     {% endfor %}
 </div>

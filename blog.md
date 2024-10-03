@@ -9,11 +9,13 @@ permalink: /blog/
 
 <div class="row g-2">
     {% for post in site.posts %}
-    <div class="col-md-6 col-xs-12 p-3" id="post">
-        <img src="/assets/img/{{post.title | downcase | replace: ' ', '-'}}.jpg" />
-        <h2>{{ post.title }}</h2>
-        <a href="{{ post.url }}"><span class="link-spanner"></span></a>
-        {{ post.date | date: "%e %b, %Y"}} - {{ post.description }}
+    <div class="col-md-6 col-xs-12">
+        <div class="p-3" id="post">
+            <img src="/assets/img/{{post.title | downcase | replace: ' ', '-'}}.jpg" />
+            <h2>{{ post.title }}</h2>
+            <a href="{{ post.url }}"><span class="link-spanner"></span></a>
+            {{ post.date | date: "%e %b, %Y"}} - {{ post.description }}
+        </div>
     </div>
     {% endfor %}
 </div>
