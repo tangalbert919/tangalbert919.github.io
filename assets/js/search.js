@@ -33,7 +33,7 @@
     var searchTerm = getQuery('query');
   
     if (searchTerm) {
-      document.getElementById('search-box').setAttribute("value", searchTerm);
+      //document.getElementById('search-box').setAttribute("value", searchTerm);
   
       // Initalize lunr.js with the fields to search.
       // The title field is given more weight with the "boost" parameter
@@ -41,7 +41,7 @@
         this.field('id');
         this.field('title', { boost: 10 });
         this.field('author');
-        this.field('category');
+        //this.field('category');
         this.field('content');
   
         for (var key in window.store) { // Add the JSON we generated from the site content to Lunr.js.
@@ -49,7 +49,7 @@
             'id': key,
             'title': window.store[key].title,
             'author': window.store[key].author,
-            'category': window.store[key].category,
+            //'category': window.store[key].category,
             'content': window.store[key].content
           });
         }
