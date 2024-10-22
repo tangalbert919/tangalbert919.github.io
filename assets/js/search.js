@@ -7,8 +7,12 @@
   
         for (var i = 0; i < results.length; i++) {  // Iterate over them and generate html
           var item = store[results[i].ref];
-          appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
-          appendString += '<p>' + item.content.substring(0, 250) + '...</p></li>';
+          appendString += '<div class="col-12">';
+          appendString += '<div class="p-3" id="post">';
+          appendString += '<h3>' + item.title + '</h3>';
+          appendString += '<a href="' + item.url + '"><span class="link-spanner"></span></a>';
+          appendString += '<p>' + item.description + '...</p>';
+          appendString += '</div></div>';
         }
   
         searchResults.innerHTML = appendString;
@@ -41,7 +45,7 @@
         this.field('id');
         this.field('title', { boost: 10 });
         this.field('author');
-        //this.field('category');
+        this.field('description');
         this.field('content');
   
         for (var key in window.store) { // Add the JSON we generated from the site content to Lunr.js.
@@ -49,7 +53,7 @@
             'id': key,
             'title': window.store[key].title,
             'author': window.store[key].author,
-            //'category': window.store[key].category,
+            'description': window.store[key].description,
             'content': window.store[key].content
           });
         }

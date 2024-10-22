@@ -3,8 +3,11 @@ layout: default
 title: Search Results
 permalink: /search/
 ---
+
+<h1>Search results:</h1>
 <!-- List where search results will be rendered -->
-<ul id="search-results"></ul>
+<div class="row g-2" id="search-results">
+</div>
 
 <script>
   // Template to generate the JSON to search
@@ -14,6 +17,7 @@ permalink: /search/
         "title": "{{ post.title | xml_escape }}",
         "author": "{{ post.author | xml_escape }}",
         "content": {{ post.content | strip_html | strip_newlines | jsonify }},
+        "description": "{{ post.description }}",
         "url": "{{ post.url | xml_escape }}"
       }
       {% unless forloop.last %},{% endunless %}
