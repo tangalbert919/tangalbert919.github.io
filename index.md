@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 <div align="center">
-    <img src="/assets/img/logo.svg" />
+    <h1 id="home-h1">ALBERT TANG</h1>
     {% for item in site.data.navigation %}
         {% if forloop.first %}
             {% continue %}
