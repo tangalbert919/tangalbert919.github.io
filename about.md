@@ -53,6 +53,14 @@ mobile development, artificial intelligence, machine learning, and cybersecurity
   </a>
 </div>
 
+<h2 align="center">Social media:</h2>
+
+<div align="center">
+  <a href="https://xdaforums.com/m/andr01dfr3ak.8080659/" target="_blank">
+    <img src="https://img.shields.io/badge/XDA--Developers-%23AC6E2F.svg?style=for-the-badge&logo=XDA-Developers&logoColor=white&label=andr01dfr3ak" />
+  </a>
+</div>
+
 <h2 align="center">My GitHub stats:</h2>
 
 <div align="center">
