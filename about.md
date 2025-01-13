@@ -59,6 +59,9 @@ mobile development, artificial intelligence, machine learning, and cybersecurity
   <a href="https://xdaforums.com/m/andr01dfr3ak.8080659/" target="_blank">
     <img src="https://img.shields.io/badge/XDA--Developers-%23AC6E2F.svg?style=for-the-badge&logo=XDA-Developers&logoColor=white&label=andr01dfr3ak" />
   </a>
+  <a href="https://bsky.app/profile/tangalbert919.bsky.social" target="_blank">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=Bluesky&logoColor=white&label=tangalbert919.bsky.social" />
+  </a>
 </div>
 
 <h2 align="center">My GitHub stats:</h2>
